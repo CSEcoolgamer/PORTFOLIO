@@ -1,4 +1,9 @@
-import React from 'react'
+// Using THREEjs REACTjs Fiber Canvas
+// import {Suspense, useEffect, useState} from 'react';
+
+// import { Canvas } from '@react-three/fiber';
+
+
 
 const Computers = () => {
   return (
