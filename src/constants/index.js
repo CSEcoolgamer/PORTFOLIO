@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -46,16 +45,12 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Reactjs Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "JAVA",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -116,8 +111,8 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Software Developer Intern",
+      company_name: "Reliance General Insurance",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",

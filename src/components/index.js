@@ -21,4 +21,4 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas
-}
+};

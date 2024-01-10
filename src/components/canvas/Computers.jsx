@@ -1,5 +1,5 @@
 // Using THREEjs REACTjs Fiber Canvas
-import {Suspense, useEffect, useState} from 'react';
+import React, { Suspense, useEffect, useState } from "react";
 
 import { Canvas } from '@react-three/fiber';
 
@@ -25,7 +25,6 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
@@ -36,6 +35,7 @@ const Computers = ({ isMobile }) => {
     </mesh>
   );
 };
+
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
