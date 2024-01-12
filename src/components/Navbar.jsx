@@ -7,7 +7,7 @@ import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState("false"); //default=false , as it is only for small devices.(mobile)
+  const [toggle, setToggle] = useState(false); //default=false , as it is only for small devices.(mobile)
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -28,7 +28,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${
+        styles.paddingX
+      } w-full flex items-center py-5 fixed top-0 z-20 ${
+        scrolled ? "bg-primary" : "bg-transparent"
+      }`}
     >
       {/* setting up the main screen */}
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
