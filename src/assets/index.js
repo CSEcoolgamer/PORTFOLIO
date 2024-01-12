@@ -22,8 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 
-import logo_small from "./company/logo_small.png";
-import tesla from "./company/tesla.png";
+import sparks_foundation from "./company/sparks_foundation.png";
+import reliance from "./company/reliance.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -51,8 +51,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  logo_small,
-  tesla,
+  sparks_foundation,
+  reliance,
   carrent,
   jobit,
   tripguide,
